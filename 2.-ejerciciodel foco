@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.j{
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.img1{
+    border: 2px solid blue;
+    margin-top: 80px;
+    margin-bottom: 300px;
+    margin-left: 280px;
+    margin-right: 550px;
+    width: 900px;
+    height: 350px;
+}
+
+</style>
+
+
+</head>
+<body>
+    
+ <div class="j">
+<button onclick="document.getElementById('myImage').src='img/1.jpg'">APAGAR</button>
+<img id="myImage" src="img/2.jpg" alt="">
+
+
+<button onclick="document.getElementById('myImage').src='img/2.jpg'">PRENDER</button>
+ </div>
+
+<img src="img/luz.jpg" alt="" class="img1">
+
+
+
+</body>
+</html>
