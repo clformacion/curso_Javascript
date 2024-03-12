@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.header{
+    border: 5px solid blue;
+    padding: 30px;
+    background-color: cadetblue;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align:right;
+   
+
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<div class="header">
+<h1 >FORMACION EDUCATIVA</h1>
+<p id="demo" style="text-align: center; font-size: 80px;"> </p>
+<button type="button" onclick="myFunction()">Haga Clic</button>
+</div> 
+
+
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = " GRACIAS POR SU VISITA!";
+      
+    }
+    </script>
+
+
+<h1>hola</h1>
+
+
+
+</body>
+</html>
