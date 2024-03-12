@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula</title>
+
+
+</head>
+<body>
+    
+<div style="border: 8px solid navajowhite; padding-top: 10px;background-color:white;">
+<img src="img/estudiante.jpg" alt="" width="10%">
+<script>
+  var nombre= prompt("introduce tu nombre:");
+  var apellido= prompt("introduce tu apellido:");
+  document.write("<h2>");
+  document.write(nombre+ " " + apellido);
+  document.write("</h2>");
+</script>
+<div align="center">
+<img src="img/aula4.jpg" alt="">
+<h1>BIENVENIDOS A SU AULA</h1>
+</div>
+
+
+</div>
+</body>
+</html>
