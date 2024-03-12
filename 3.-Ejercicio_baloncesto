@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Cuánto dura un partido de baloncesto FIBA y cuánto tiempo se juega cada cuarto </h1>
+
+<img src="img/baloncesto.jpg" alt=""><br>
+<p style="font-family: cambria; font-size: 20px; margin-right: 500px; text-align: justify;" id="demo">
+<span style="font-size: 150px;">L</span>l baloncesto es un deporte dinámico y sencillo con unas reglas únicas, reconocidas de manera internacional, las cuales decide, publica y adapta la FIBA. A diferencia de otros deportes, la duración del partido puede ser muy relativa, 
+<button type="button" onclick="myFunction()">Seguir leyendo</button>
+</p>
+<p id="demo"   ></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "A todo ello se deben sumar los 60 segundos de tiempo muerto que utilizan los entrenadores para darles las indicaciones necesarias a sus jugadores. La FIBA permite que se pidan dos tiempos muertos en los dos primeros cuartos del encuentro y tres en la segunda parte, mientras que en la prórroga solo se puede pedir un tiempo muerto.Los tiempos muertos también añaden minutos al desarrollo del encuentro.<br> 15 minutos de descanso en la mitad del partido, más todo lo anterior, hacen que los 40 minutos de inicio se acaben convirtiendo en partidos con una duración que oscilan entre los 90 y los 120 minutos. ";
+    
+  }
+</Script>
+
+
+
+
+</body>
+</html>
